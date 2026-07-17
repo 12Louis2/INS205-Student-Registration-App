@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INS205 Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Registration System</h1>
+    <p>INS205 Assignment</p>
+</header>
+
+<div class="container">
+
+    <div class="student-info">
+        <h2>Student Information</h2>
+        <p><strong>Name:</strong> Adukwu Louis Dickson</p>
+        <p><strong>Matric No:</strong> UJ/2024/NS/0103</p>
+        <p><strong>Department:</strong> Computer Science</p>
+        <p><strong>Level:</strong> 200</p>
+        <p><strong>Course:</strong> INS205</p>
+    </div>
+
+    <form id="registrationForm">
+
+        <h2>Student Registration Form</h2>
+
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label>Department</label>
+        <input type="text" id="department" placeholder="Computer Science" required>
+
+        <label>Level</label>
+        <select id="level">
+            <option>100</option>
+            <option selected>200</option>
+            <option>300</option>
+            <option>400</option>
+        </select>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Adukwu Louis Dickson | INS205 Web Application</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
